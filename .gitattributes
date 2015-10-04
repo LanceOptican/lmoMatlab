@@ -1,0 +1,28 @@
+# MS Office
+*.xlsx -crlf -diff -merge -delta
+*.xls -crlf -diff -merge -delta
+*.docx -crlf -diff -merge
+*.doc -crlf -diff -merge
+
+# MATLAB
+*.mat -crlf -diff -merge -delta
+*.p -crlf -diff -merge -delta
+*.slx -crlf -diff -merge -delta
+*.mdl -crlf -diff -merge -delta
+*.mdlp -crlf -diff -merge -delta
+*.slxp -crlf -diff -merge -delta
+*.sldd -crlf -diff -merge -delta
+*.mexa64 -crlf -diff -merge -delta
+*.mexw32 -crlf -diff -merge -delta
+*.mexw64 -crlf -diff -merge -delta
+*.mexmaci64 -crlf -diff -merge -delta
+
+# MISC
+*.pdf -crlf -diff -merge -delta
+*.tif -crlf -diff -merge -delta
+*.tiff -crlf -diff -merge -delta
+*.jpg -crlf -diff -merge -delta
+*.jpeg -crlf -diff -merge -delta
+*.png -crlf -diff -merge -delta
+*.zip -crlf -diff -merge -delta
+*.tar -crlf -diff -merge -delta

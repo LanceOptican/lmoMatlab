@@ -1,0 +1,9 @@
+*.~
+*~
+*.asv
+.DS_Store
+*OLD*
+.DS_*
+*.ffs_gui
+*COPY*
+
