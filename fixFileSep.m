@@ -7,8 +7,8 @@ if isempty(str)
 end
 if isunix || ismac
     k = regexp(str, '\\');
-    str(k) = '/';
+    str(k) = filesep;
 else
     k = regexp(str, '/');
-    str(k) = '\';
+    str(k) = filesep;
 end

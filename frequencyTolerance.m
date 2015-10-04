@@ -176,12 +176,12 @@ if debug
     
     figure(806); clf
     hax(1) = subplot(2, 1, 1);
-    histogram(Fn - Fc);
+    histogram_resamp(Fn - Fc);
     xlabel('Frequency offset (Hz)');
     ylabel('Frequency Distribution')
     
     hax(2) = subplot(2, 1, 2);
-    histogram(An);
+    histogram_resamp(An);
     ylabel('Amplitude');
     xlabel('Frequency offset (Hz)');
     

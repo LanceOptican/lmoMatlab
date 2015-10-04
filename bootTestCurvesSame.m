@@ -242,7 +242,7 @@ pvalue = 2 * pvalue;    % times 2 because for a two-tailed test
 
 %% pltHisto(allD, pvalue): plot histogram
 function pltHisto(allD, pvalue)
-histogram(allD, 50)
+histogram_resamp(allD, 50)
 hold on
 ax = axis;
 maxDdata = allD(1);
