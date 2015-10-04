@@ -1,5 +1,7 @@
-function histogram(varargin)
-% HISTOGRAM(data)
+function histogram_resamp(varargin)
+% HISTOGRAM_resamp(data)
+% LMO renamed to avoid collision with Matlab's histogram().
+%
 % plot out a histogram showing relative frequencies
 % this means that the area of the histogram will be 1,
 % measured according to the scale of the graph

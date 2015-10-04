@@ -14,7 +14,7 @@ for trials = 1:1000
    tally teststat z;
 end
 
-histogram(z);
+histogram_resamp(z);
 hold on;
 plot(ourval, 0:.001:.02, '*');
 hold off

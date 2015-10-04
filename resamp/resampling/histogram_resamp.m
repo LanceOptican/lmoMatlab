@@ -1,5 +1,6 @@
-function histogram(varargin)
-% HISTOGRAM(data)
+function histogram_resamp(varargin)
+% HISTOGRAM_RESAMP(data)
+% LMO renamed
 % plot out a histogram showing relative frequencies
 % this means that the area of the histogram will be 1,
 % measured according to the scale of the graph

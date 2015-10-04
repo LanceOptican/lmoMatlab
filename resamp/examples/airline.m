@@ -16,7 +16,7 @@ for trials = 1:1000
    tally teststat z;
 end
 
-histogram(z,'Difference of means under Null Hyp.');
+histogram_resamp(z,'Difference of means under Null Hyp.');
 hold on;
 plot(48.1, 0:.001:.012, '*');
 xlabel('Diff in mean delays (minutes): after threat - before threat');
